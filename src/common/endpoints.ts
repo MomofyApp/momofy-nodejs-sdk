@@ -1,4 +1,4 @@
-export const API_URL = "https://momofy-api-staging.up.railway.app";
+export const API_URL = "https://api.momofy.com";
 export default {
   transactions: {
     makeTransaction: API_URL + "/transactions/request",

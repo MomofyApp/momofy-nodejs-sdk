@@ -1,0 +1,30 @@
+{
+  "name": "momofy",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Momofy SDK for Node Js Applications",
+  "main": "./dist/index.js",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/foo.cjs",
+    "default": "./dist/foo.modern.js"
+  },
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "vitest"
+  },
+  "repository": "git@github.com:MomofyApp/momofy-nodejs-sdk.git",
+  "author": "roqkabel <roqkabel@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "vitest": "^1.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}

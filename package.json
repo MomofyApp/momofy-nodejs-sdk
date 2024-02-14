@@ -25,11 +25,9 @@
     "main": "dist/index.js",
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:MomofyApp/momofy-nodejs-sdk.git"
-  },
-  "author": "roqkabel <roqkabel@gmail.com>",
+  "homepage": "git@github.com:MomofyApp/momofy-nodejs-sdk.git",
+  "repository": "git@github.com:MomofyApp/momofy-nodejs-sdk.git",
+  "author": "roqkabel <roqkabel@gmail.com> (https://roqkabel.com)",
   "license": "MIT",
   "private": false,
   "devDependencies": {

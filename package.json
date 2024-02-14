@@ -1,7 +1,7 @@
 {
   "name": "@momofy/sdk",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Momofy SDK for Node Js Applications",
   "main": "dist/index.js",
   "module": "dist/index.module.js",

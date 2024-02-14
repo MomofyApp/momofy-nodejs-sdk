@@ -24,7 +24,6 @@ export enum EnvironmentType {
 }
 
 
-
 export interface SuccessRequest {
   success: boolean;
   message: string;

@@ -58,7 +58,7 @@ To be able to perform transactions using this SDK you need to get your API Secre
 Request payment from your customers
 
 ```js
-import { Momofy } from "momofy"
+import { Momofy } from "@momofy/sdk"
 
 const momofy = new Momofy("secret_test_01HPH70VG02DAYJ1N70NP4QWKV");
 
@@ -121,7 +121,7 @@ let response = await momofy.transaction.requestPayment({
 Verify your transaction by providing the transaction ref ID. 
 
 ```js
-import { Momofy } from "momofy"
+import { Momofy } from "@momofy/sdk"
 
 const momofy = new Momofy("secret_test_01HPH70VG02DAYJ1N70NP4QWKV");
 

@@ -29,7 +29,7 @@ export class Transaction {
    * Transaction Reference ID
    * @param transactionId
    */
-  public async verify(transactionId: string): Promise<Axios> {
+  public async verify(transactionId: string): Promise<SuccessRequest> {
     return this.http.get(
       endpoints.transactions.verifyTransaction + "/" + transactionId
     );

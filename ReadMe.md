@@ -101,8 +101,8 @@ let response = await momofy.transaction.requestPayment({
 | `currency`      | `GHS` | The supported currency from the provider |    
 | `customer`      | `Customer Object`  | The customer information|   
 | `provider`      | `MTN or VODAFONE`  | Network Provider code ( get this from the docs )|  
-| `reference_code`      | `unique uuidv4 number`  | Refrence code ( will be auto generated when not provided )|  
-| `transaction_note`      | `Message for transaction`  |Note to display to user when request for payment.| 
+| `reference_code`      | `unique uuidv4 number`  | Reference code ( will be auto generated when not provided )|  
+| `transaction_note`      | `Message for transaction`  |Note to display to user when requesting for payment.| 
 
 ###
 #### Customer Object

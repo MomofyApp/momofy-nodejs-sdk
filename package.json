@@ -1,7 +1,7 @@
 {
   "name": "@momofy/sdk",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Momofy SDK for Node Js Applications",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
@@ -25,8 +25,8 @@
     "main": "dist/index.js",
     "access": "public"
   },
-  "homepage": "git@github.com:MomofyApp/momofy-nodejs-sdk.git",
-  "repository": "git@github.com:MomofyApp/momofy-nodejs-sdk.git",
+  "homepage": "https://github.com/MomofyApp/momofy-nodejs-sdk",
+  "repository": "https://github.com/MomofyApp/momofy-nodejs-sdk",
   "author": "roqkabel <roqkabel@gmail.com> (https://roqkabel.com)",
   "license": "MIT",
   "private": false,

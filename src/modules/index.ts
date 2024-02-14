@@ -1,5 +1,5 @@
 import { API_URL } from "../common/endpoints";
-import { EnvironmentType } from "../common/types";
+import { EnvironmentType } from "../../types";
 import { Axios } from "axios";
 import { Transaction } from "./transactions";
 

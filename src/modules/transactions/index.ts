@@ -3,7 +3,7 @@ import {
   BadRequest,
   RequestPaymentType,
   SuccessRequest,
-} from "../../common/types";
+} from "../../../types";
 import endpoints from "../../common/endpoints";
 
 export class Transaction {

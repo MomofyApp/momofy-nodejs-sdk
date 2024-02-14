@@ -1,7 +1,7 @@
 {
-  "name": "momofy",
+  "name": "@momofy/sdk",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Momofy SDK for Node Js Applications",
   "main": "./dist/index.js",
   "module": "./dist/index.module.js",
@@ -15,6 +15,10 @@
     "build": "microbundle",
     "dev": "microbundle watch",
     "test": "vitest"
+  },
+  "publishConfig": {
+    "source": "src/index.ts",
+    "main": "dist/index.js"
   },
   "repository": "git@github.com:MomofyApp/momofy-nodejs-sdk.git",
   "author": "roqkabel <roqkabel@gmail.com>",

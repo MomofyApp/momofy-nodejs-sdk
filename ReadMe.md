@@ -23,10 +23,10 @@ Goto the  [Dashboard](https://app.momofy.com/)
 To install this package run
 
 ```bash
-  npm install momofy
+  npm install  @momofy/sdk
 ```
 ```bash
-  yarn add momofy
+  yarn add  @momofy/sdk
 ```
 
 

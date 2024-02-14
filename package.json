@@ -1,7 +1,7 @@
 {
   "name": "@momofy/sdk",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Momofy SDK for Node Js Applications",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
@@ -11,12 +11,13 @@
   "exports": {
     "require": "./dist/index.cjs",
     "default": "./dist/index.modern.js",
-    "types": "./types/*.d.ts"
+    "types": "./dist/**/*.d.ts"
   },
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
     "test": "vitest",
+    "publish": "npm publish",
     "prepublish": "yarn build"
   },
   "publishConfig": {

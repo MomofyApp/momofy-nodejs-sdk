@@ -167,5 +167,5 @@ let response = await momofy.transaction.verify("dee67adb-bcfc-416b-b08b-b7dbb211
 
 ## Feedback
 
-If you have any feedback, please reach out to us at momofyapp@gmail.com
+If you have any feedback, please feel free to submit an issue.
 

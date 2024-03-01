@@ -4,5 +4,6 @@ export default {
     makeTransaction: API_URL + "/transactions/request",
     verifyTransaction: API_URL + "/transactions/verify",
     listTransactions: API_URL + "/transactions",
+    checkout: API_URL + "/checkouts/new",
   },
 };

@@ -93,7 +93,7 @@ let response = await momofy.transaction.checkout({
 | :-------- | :------- | :-------------------------------- |
 | `amount`      | `20` or "30" | Amount to be requested from customer |
 | `redirectUrl`      | `https://example.com/verify-transaction`  | A url to be redirected to after successful / failed transaction|  
-| `reference_code`      | `unique uuidv4 number`  | Reference code ( will be auto generated when not provided )|  
+| `reference_code`      | `unique uuidv4 string`  | Reference code ( will be auto generated when not provided )|  
 | `transaction_note`      | `Message for transaction`  |Note to display to user when requesting for payment.| 
 
 
@@ -146,7 +146,7 @@ let response = await momofy.transaction.requestPayment({
 | `currency`      | `GHS` | The supported currency from the provider |    
 | `customer`      | `Customer Object`  | The customer information|   
 | `provider`      | `MTN or VODAFONE`  | Network Provider code ( get this from the docs )|  
-| `reference_code`      | `unique uuidv4 number`  | Reference code ( will be auto generated when not provided )|  
+| `reference_code`      | `unique uuidv4 string`  | Reference code ( will be auto generated when not provided )|  
 | `transaction_note`      | `Message for transaction`  |Note to display to user when requesting for payment.| 
 
 ###

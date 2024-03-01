@@ -52,8 +52,53 @@ To be able to perform transactions using this SDK you need to get your API Secre
 ## Usage
 
 
-
 ### Initiate Transaction
+
+Request a checkout url to received payment from customers
+
+```js
+import { Momofy } from "@momofy/sdk"
+
+const momofy = new Momofy("secret_test_01HPH70VG02DAYJ1N70NP4QWKV");
+
+let response = await momofy.transaction.checkout({
+    amount: 30,
+    redirectUrl: "https://example.com/verify-transaction",
+    referenceCode: "",
+    transactionNote: "Payment of bills",
+  });
+
+```
+
+#### Request Response
+
+```js
+    {
+     success: true,
+     message: 'Checkout created successful',
+     result: {
+       transaction_ref: '00d67012-90b9-45c1-be9f-06ec8d813ddb',
+       checkout_url: 'https://app.momofy.com/checkout/c4e1a0e0-80bd-4925-b7bd-c36e48979f13'
+    },
+    meta: {}
+   }
+
+```
+
+###
+#### options
+
+
+|  Params |   Example values  | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `amount`      | `20` or "30" | Amount to be requested from customer |
+| `redirectUrl`      | `https://example.com/verify-transaction`  | A url to be redirected to after successful / failed transaction|  
+| `reference_code`      | `unique uuidv4 number`  | Reference code ( will be auto generated when not provided )|  
+| `transaction_note`      | `Message for transaction`  |Note to display to user when requesting for payment.| 
+
+
+
+### Request Payment 
 
 Request payment from your customers
 
